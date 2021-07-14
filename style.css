@@ -69,11 +69,92 @@ main{
 }
 .player img{
     width: 285px;
-    height: 236px;
+    height: 236px;  
+}
+.player img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in;
 }
 .player p{
+    color: #6C6C6C; 
+}
+/* finished player style */
+
+/* highlights style */
+
+.highlight .highlight-banner img{
+    margin-top: 35px;
+    width: 375px;
+    height: 175px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 40px  gray;
+    border-radius: 5px;
+}
+.highlight .highlight-banner img:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in;
+}
+
+/*------------------- 
+highlight End 
+------------*/
+
+/* Footer start */
+
+#footer-area{
+    margin-top: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 114px;
+}
+#footer-area img{
+    width: 483.87px;
+    height: 110px;
+}
+#footer-area a{
+    text-decoration: none;
+    margin-left: 14px;
+}
+.fa-facebook-f{
+    color: #6C6C6C;
+}
+.fa-instagram{
+    color: #6C6C6C;
+}
+.fa-linkedin-in{
+    color: #6C6C6C;
+}
+.fa-youtube{
     color: #6C6C6C;
 }
 
+/* -------
+footer ended 
+----*/
 
+/* Media queries */
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .Copa-title .players .highlights{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Copa-title .players .highlights{
+        flex-direction: column;
+    }
+}
+@media  only screen and {min-width: 688px) and (max-width:992px){
+     .container{
+         width: 100%;
+     }
+     .Copa-title .players .highlights{
+         grid-template-columns: repeat(2, 1fr);
+     }
+}
+    
+
+    
 
