@@ -1,0 +1,72 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* title style start */
+
+.Copa-title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: blue;
+    
+   
+}
+.Copa-title h1{
+    color: white;
+    margin-top: 207px;
+    margin-left: 156px;
+    font-size: 64px;
+    
+}
+.Copa-title a{
+        text-decoration: none;
+        Width: 110px; 
+        Height :40px;
+        Top :464px;
+        Left: 156px;
+        Padding: 7px 20px 7px 20px;
+        background-color: #E02C6D;
+        color: white;
+        border-radius: 15px;
+        margin-left: 156px;     
+}
+.Copa-title a:hover{
+    background-color: violet;
+}
+.Copa-title img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* Top Player list */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player img{
+    width: 270px;
+    height: 236px;
+}
+.player p{
+    color: #6C6C6C;
+}
+
+
+
