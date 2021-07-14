@@ -146,15 +146,14 @@ footer ended
         flex-direction: column;
     }
 }
-@media  only screen and {min-width: 688px) and (max-width:992px){
-     .container{
-         width: 100%;
-     }
+@media  only screen and (min-width: 688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
      .Copa-title .players .highlights{
          grid-template-columns: repeat(2, 1fr);
      }
-}
-    
+ } 
 
     
 
